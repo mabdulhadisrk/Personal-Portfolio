@@ -25,6 +25,23 @@ body {
         background-position:center, 0px center;
     }
 }
+
+@keyframes openingAnimation {
+    from {
+        opacity:0;
+        transform: translateY(15px);
+    }
+    to {
+        opacity:1;
+        transform: translateY(0px);
+    }
+}
+
+.An-eng, .Myname, .Building, .engMe, .scroll1 {
+    opacity:0;
+    animation: openingAnimation 2s forwards;
+}
+
 .An-eng {
     color:rgb(117, 114, 114);
     position:absolute;
@@ -32,6 +49,7 @@ body {
     letter-spacing:1px;
     top:200px;
     left:10%;
+    animation-delay:0.2s;
 }
 
 .Myname {
@@ -42,6 +60,7 @@ body {
     position:absolute;
     top:220px;
     left:80px;
+    animation-delay:0.4s;
 }
 .left-top-fixed {
     position:fixed;
@@ -76,6 +95,7 @@ body {
     left:80px;
     font-size:2rem;
     font-weight:400;
+    animation-delay:0.5s;
 }
 
 .engMe {
@@ -88,12 +108,21 @@ body {
     top:420px;
     letter-spacing:1px;
     max-width:480px;
+    animation-delay:0.7s;
+
 }
-.para1 {
+.scroll1 {
     color:rgb(226, 221, 221);
     position:absolute;
     top:600px;
     left:90px;
     font-size:25px;
     letter-spacing:1px;
+    animation-delay:0.9s;
 }
+
+.box2 {
+    margin-top:20px;
+}
+
+/
