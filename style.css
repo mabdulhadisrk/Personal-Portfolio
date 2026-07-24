@@ -73,6 +73,7 @@ body {
     font-family:ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     text-decoration:none;
     cursor:pointer;
+    z-index:1;
 }
 
 .left-top-fixed:hover {
@@ -89,6 +90,7 @@ body {
     right:30px;
     transition: all 0.1s ease-in-out;
     cursor:pointer;
+    z-index:1;
 }
 
 .right-top-fixed:hover {
@@ -105,6 +107,7 @@ body {
     left:34.5%;
     text-decoration:none;
     transition:all 0.15s ease-in-out;
+    z-index:1;
 }
 
 .hobbies {
@@ -117,6 +120,7 @@ body {
     left:44%;
     text-decoration:none;
     transition: all 0.15s ease-in-out;
+    z-index:1;
 }
 
 .work {
@@ -129,6 +133,7 @@ body {
     right:44%;
     text-decoration:none;
     transition: all 0.15s ease-in-out;
+    z-index:1;
 }
 
 .contact {
@@ -141,6 +146,7 @@ body {
     right:34%;
     text-decoration:none;
     transition: all 0.15s ease-in-out;
+    z-index:1;
 }
 
 .contact:hover, .profile:hover, .hobbies:hover, .work:hover {
