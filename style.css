@@ -374,6 +374,7 @@ body {
 
 
 .box3 {
+    padding:70px;
     position:relative;
     top:1220px;
 }
@@ -431,7 +432,7 @@ body {
 
 .guitarist {
     position:absolute;
-    top:2190px;
+    top:2260px;
     left:220px;
 }
 
@@ -454,7 +455,7 @@ body {
 }
 .cricket {
     position:absolute;
-    top:2100px;
+    top:2170px;
     right:30px;
 }
 
@@ -477,7 +478,7 @@ body {
 
 .jin {
     position:absolute;
-    top:2540px;
+    top:2610px;
     left:700px;
 }
 
@@ -500,6 +501,6 @@ body {
 
 .chip {
     position:absolute;
-    top:2520px;
+    top:2590px;
     right:160px;
 }
